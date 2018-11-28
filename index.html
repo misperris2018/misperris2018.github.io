@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/estilos.css"/>
+    <link rel="stylesheet" href="styles/fontello.css">
     <title>Mis Osos</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="images/bear1.jpg"/>
@@ -16,23 +17,111 @@
      <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
      <meta name="msapplication-TileColor" content="#2F3BA2">
 </head>
-<body>
+<body class="color">
     <header>
-        <h1>Mis Osos</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="info.html">Información</a></li>
-            <li><a href="gallery.html">Galería</a></li>            
-        </ul>
-    </nav>
-    <main>
-        <h2>Bienvenido a la página mis Osos</h2>
-    </main>
-    <footer>
-        &copy; Todos los derechos reservados
+            <div class="contenedor">
+                <h1 class="icon-dog">MIS PERRIS</h1>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="">Inicio</a>
+                    <a href="galeria.html">Galeria</a>
+                    <a href="formulario.html">Contacto</a>
+                    <a href="login.html">Login</a>
+                </nav>
+            </div>
+        </header>
+
+    
+
+
+    <section id="carrusel">
+    <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="imagenes/3.jpg" alt="perro1" style="width:100%;">
+                </div>
+          
+                <div class="item">
+                  <img src="imagenes/2.jpg" alt="perro2" style="width:100%;">
+                </div>
+              
+                <div class="item">
+                  <img src="imagenes/logo.jpg" alt="perro3" style="width:100%;">
+                </div>
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+          <section id="info">
+                <h3>Para nosotros los perritos no son simples mascotas, son nuestros mejores amigos.</h3>
+                <div class="contenedor">
+                    <div class="info-pet">
+                        <img src="imagenes/thor.jpg" alt="">
+                        <h4>Thor</h4>
+                    </div>
+                    <div class="info-pet">
+                        <img src="imagenes/zeus.jpg" alt="">
+                        <h4>Zeus</h4>
+                    </div>
+                    <div class="info-pet">
+                        <img src="imagenes/poseidon.jpg" alt="">
+                        <h4>Poseidon</h4>
+                    </div>
+                    
+
+                </div>
+            </section>
+
+            <section id="Galeria">
+                <h4 class="title"> Galeria Mis Perris</h4>
+                <div class="contenedor-galeria">
+                    <img tabindex="1" src="imagenes/galeria1.jpg" alt="perritouan" class="galeria__img">
+                    <img tabindex="2" src="imagenes/galeria2.jpg" alt="perritochu" class="galeria__img">
+                    <img tabindex="3" src="imagenes/galeria3.jpg" alt="perritotri" class="galeria__img">
+                    <img tabindex="4" src="imagenes/galeria4.jpg" alt="perritofor" class="galeria__img">
+                    <img tabindex="5" src="imagenes/galeria5.webp" alt="perritofaiv" class="galeria__img">
+                    <img tabindex="6" src="imagenes/galeria6.jpg" alt="perritosix" class="galeria__img">
+                </div>
+
+
+
+
+            </section>
+
+
+
+<footer>
+    <section id="final">
+        <div class="contenedor">
+            <p class="copy">Mis Perris &copy; 2018 </p>
+            <div class="contact">
+                <a tabindex="7" class="icon-fono" href="#"></a>
+                <a tabindex="8" class="icon-mail" href="#"></a>
+            </div>
+        </div>
     </footer>
+</section>
     <script src="scripts/app.js"></script>
 </body>
 </html>
