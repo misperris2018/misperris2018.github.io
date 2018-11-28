@@ -1,4 +1,4 @@
-var cacheName = "osos-v1";
+var cacheName = "osos-v20";
 var filesToCache = [
     "/",
     "/index.html",
