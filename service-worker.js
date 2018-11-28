@@ -1,4 +1,4 @@
-var cacheName = "osos-v2";
+var cacheName = "osos-v3";
 var filesToCache = [
     "/",
     "/index.html",
@@ -6,15 +6,6 @@ var filesToCache = [
     "/gallery.html",
     "/scripts/app.js",
     "/styles/estilos.css",
-    "/styles/final.css",
-    "/styles/fontello.css",
-    "/styles/formAdopcion.css",
-    "/styles/galeria.css",
-    "/styles/info.css",
-    "/styles/login.css",
-    "/styles/main.css",
-    "/styles/menu.css",
-    "/styles/newgaleria.css",
     "/images/bear1.jpg",
     "/images/bear2.jpg",
     "/images/bear3.jpg",
