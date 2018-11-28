@@ -6,15 +6,18 @@ var filesToCache = [
     "/gallery.html",
     "/scripts/app.js",
     "/styles/estilos.css",
-    "/images/bear1.jpg",
-    "/images/bear2.jpg",
-    "/images/bear3.jpg",
-    "/images/bear4.jpg",
-    "/images/bear5.jpeg",
-    "/images/bear6.jpg",
-    "/images/bear7.jpg",
-    "/images/bear8.jpg",
-    "/images/bear9.jpg"
+    "/images/galeria1.jpg",
+    "/images/galeria2.jpg",
+    "/images/galeria3.jpg",
+    "/images/galeria4.jpg",
+    "/images/galeria6.jpeg",
+    "/images/poseidon.jpg",
+    "/images/thor.jpg",
+    "/images/zeus.jpg",
+    "/images/1.jpg",
+    "/images/2.jpg",
+    "/images/3.jpg",
+    "/images/logo.jpg"
 ];
 
 self.addEventListener( 'install', function( e ) {
