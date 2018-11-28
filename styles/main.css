@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+
+header, main {
+    padding: 15px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* MENU */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: red;
+}
+
+.bearsContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bearContainer{
+    text-align: center;
+    border: solid 0.5px black;
+    margin: 4px;
+    padding: 5px;
+    background-color: beige;
+    border-radius: 10px;
+}
